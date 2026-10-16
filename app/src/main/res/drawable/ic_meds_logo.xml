@@ -1,0 +1,47 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="128dp"
+    android:height="128dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    
+    <!-- Outer Alarm Clock Ring / Bells -->
+    <!-- Left Bell -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M18,22 A8,8 0 0,1 28,12 L34,18 A8,8 0 0,1 24,28 Z" />
+    <!-- Right Bell -->
+    <path
+        android:fillColor="#8B0000"
+        android:pathData="M82,22 A8,8 0 0,0 72,12 L66,18 A8,8 0 0,0 76,28 Z" />
+    
+    <!-- Alarm Clock Body Circle Background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#0D47A1"
+        android:strokeWidth="5"
+        android:pathData="M50,15 A35,35 0 1,1 49.9,15 Z" />
+
+    <!-- Left Leg -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M24,78 L16,90 L22,94 L30,82 Z" />
+    <!-- Right Leg -->
+    <path
+        android:fillColor="#8B0000"
+        android:pathData="M76,78 L84,90 L78,94 L70,82 Z" />
+
+    <!-- Center Medicine Pill Capsule (Tilted) -->
+    <!-- Top-left capsule half: Dark Blue -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M50,30 C43,23 33,23 26,30 C19,37 19,47 26,54 L38,66 L50,54 Z" />
+    <!-- Bottom-right capsule half: Blood Red -->
+    <path
+        android:fillColor="#8B0000"
+        android:pathData="M50,54 L62,42 L74,54 C81,61 81,71 74,78 C67,85 57,85 50,78 L38,66 Z" />
+
+    <!-- Medical Cross in Center -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,42 L52,42 L52,48 L58,48 L58,52 L52,52 L52,58 L48,58 L48,52 L42,52 L42,48 L48,48 Z" />
+</vector>

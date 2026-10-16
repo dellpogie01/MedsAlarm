@@ -1,0 +1,65 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Cartoon Syringe / Injection with bold outlines and vibrant colors -->
+    <!-- Needle -->
+    <path
+        android:strokeColor="#78909C"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M11,37 L4,44" />
+    <!-- Needle hub -->
+    <path
+        android:fillColor="#90A4AE"
+        android:pathData="M13,35 L10,38 L12,40 L15,37 Z" />
+    
+    <!-- Syringe Barrel Body (translucent cyan fluid) -->
+    <path
+        android:fillColor="#E0F7FA"
+        android:pathData="M14,34 L31,17 L37,23 L20,40 Z" />
+    <path
+        android:fillColor="#00B0FF"
+        android:pathData="M15,33 L23,25 L29,31 L21,39 Z" />
+
+    <!-- Measurement tick marks -->
+    <path
+        android:strokeColor="#01579B"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M20,24 L22,26 M23,21 L25,23 M26,18 L28,20" />
+
+    <!-- Plunger Stopper inside barrel -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M23,25 L31,17 L34,20 L26,28 Z" />
+
+    <!-- Plunger Rod -->
+    <path
+        android:strokeColor="#1976D2"
+        android:strokeWidth="4"
+        android:strokeLineCap="square"
+        android:pathData="M31,17 L40,8" />
+    <!-- Plunger Top Flange / Thumb Rest -->
+    <path
+        android:strokeColor="#0D47A1"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M36,4 L44,12" />
+
+    <!-- Barrel Finger Flanges -->
+    <path
+        android:strokeColor="#263238"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M27,13 L39,25" />
+
+    <!-- Main Barrel Dark Cartoon Outline -->
+    <path
+        android:strokeColor="#263238"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M14,34 L31,17 L37,23 L20,40 Z" />
+</vector>

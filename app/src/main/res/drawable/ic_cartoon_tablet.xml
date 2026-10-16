@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Cartoon Yellow Tablet Pill matching user image -->
+    <!-- Drop Shadow / Depth -->
+    <path
+        android:fillColor="#C67D00"
+        android:pathData="M24,4 C12.95,4 4,12.95 4,24 C4,35.05 12.95,44 24,44 C35.05,44 44,35.05 44,24 C44,12.95 35.05,4 24,4 Z" />
+    <!-- Main Yellow Face -->
+    <path
+        android:fillColor="#FBC02D"
+        android:pathData="M24,6 C14.06,6 6,14.06 6,24 C6,33.94 14.06,42 24,42 C33.94,42 42,33.94 42,24 C42,14.06 33.94,6 24,6 Z" />
+    <!-- Top-Left Highlight Arc -->
+    <path
+        android:fillColor="#FFF59D"
+        android:pathData="M24,8 C15.16,8 8,15.16 8,24 C8,21 11,11 24,8 Z" />
+    <!-- Diagonal Groove Line -->
+    <path
+        android:strokeColor="#B26A00"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M13,13 L35,35" />
+    <!-- Outer Bold Cartoon Outline -->
+    <path
+        android:strokeColor="#4E342E"
+        android:strokeWidth="2.8"
+        android:pathData="M24,4 C12.95,4 4,12.95 4,24 C4,35.05 12.95,44 24,44 C35.05,44 44,35.05 44,24 C44,12.95 35.05,4 24,4 Z" />
+</vector>
